@@ -9,6 +9,7 @@ RUN apk add --no-cache --update ca-certificates gnupg openssl git mercurial wget
     aws:0.1.4 \
     consul:0.1.0 \
     datadog:0.1.1 \
+    github:0.1.1 \
     google:0.1.3 \
     heroku:0.1.0 \
     logentries:0.1.0 \
