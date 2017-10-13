@@ -6,7 +6,15 @@ RUN apk add --no-cache --update ca-certificates gnupg openssl git mercurial wget
     gpg --keyserver keys.gnupg.net --recv-keys 91A6E7F85D05C65630BEF18951852D87348FFC4C && \
     mkdir -p /usr/local/bin/terraform-providers && \
     for provider in \
-    aws:0.1.4; do \
+    aws:0.1.4 \
+    consul:0.1.0 \
+    datadog:0.1.1 \
+    google:0.1.3 \
+    heroku:0.1.0 \
+    logentries:0.1.0 \
+    newrelic:0.1.1 \
+    pagerduty:0.1.2 \
+    template:1.0.0; do \
         prov_name=`echo $provider | cut -d: -f1` && \
         prov_ver=`echo $provider | cut -d: -f2` && \
         echo "Installing provider ${prov_name} version ${prov_ver}" && \
