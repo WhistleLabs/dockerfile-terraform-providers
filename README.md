@@ -1,5 +1,5 @@
 # Unif.io Terraform Provider Dockerfile
-[![Circle CI](https://circleci.com/gh/unifio/dockerfile-terraform-provider.svg?style=svg)](https://circleci.com/gh/unifio/dockerfile-terraform-provider)
+[![Circle CI](https://circleci.com/gh/WhistleLabs/dockerfile-terraform-provider.svg?style=svg)](https://circleci.com/gh/WhistleLabs/dockerfile-terraform-provider)
 
 ## What is terraform
 
