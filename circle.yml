@@ -1,6 +1,6 @@
 machine:
   environment:
-    DOCKER_IMAGE: 'unifio/terraform-providers'
+    DOCKER_IMAGE: 'whistle/terraform-providers'
     PROVIDER_VERSION: 0.0.1
   services:
     - docker

@@ -1,5 +1,5 @@
 FROM alpine:3.6
-MAINTAINER "Unif.io, Inc. <support@unif.io>"
+MAINTAINER "WhistleLabs, Inc. <devops@whistle.com>"
 
 # Loop through the list of providers that we want to include
 RUN apk add --no-cache --update ca-certificates gnupg openssl git mercurial wget unzip && \
