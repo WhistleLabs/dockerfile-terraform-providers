@@ -18,6 +18,7 @@ dependencies:
 test:
   override:
     - docker run ${DOCKER_IMAGE} ls -l /usr/local/bin/terraform-providers
+    - docker run ${DOCKER_IMAGE} ls -l /aws/.terraform.d/plugins
 
 deployment:
   hub:
