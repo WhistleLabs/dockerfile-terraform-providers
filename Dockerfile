@@ -16,6 +16,7 @@ RUN apk add --no-cache --update ca-certificates gnupg openssl git mercurial wget
     logentries:0.1.0 \
     newrelic:0.1.1 \
     pagerduty:0.1.2 \
+    rabbitmq:0.2.0 \
     template:1.0.0; do \
         prov_name=`echo $provider | cut -d: -f1` && \
         prov_ver=`echo $provider | cut -d: -f2` && \
